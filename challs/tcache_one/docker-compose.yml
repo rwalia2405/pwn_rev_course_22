@@ -1,0 +1,7 @@
+version: '2'
+services:
+  pwn:
+    build: .
+    ports:
+      - "7001:7001"
+    container_name: one_tcache
